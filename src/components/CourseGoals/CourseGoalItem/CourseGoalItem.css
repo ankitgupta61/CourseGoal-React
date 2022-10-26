@@ -1,0 +1,18 @@
+.goal-item {
+  margin: 1rem 0;
+  background: #8b005d;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  color: #8b005d;
+}
+.goal-item:hover span {
+  color: rgb(255, 0, 0);
+  font-weight: 700;
+  font-size: 20px;
+}
